@@ -7,10 +7,11 @@
     <PackageDescription>This package hash the property marked.</PackageDescription>
     <RepositoryUrl>https://github.com/yasinilkalp/HashProperty</RepositoryUrl>
     <PackageIcon>icon.png</PackageIcon>
+    <Version>1.0.1.0</Version>
   </PropertyGroup>
   
   <ItemGroup>
-    <None Include="icon.png" Pack="true" PackagePath=""/>
+    <None Include="icon.png" Pack="true" PackagePath="" />
     <PackageReference Include="Microsoft.AspNetCore.Cryptography.KeyDerivation" Version="6.0.2" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.5" />
   </ItemGroup>

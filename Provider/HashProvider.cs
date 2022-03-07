@@ -31,7 +31,7 @@ namespace HashProperty.Provider
 
         }
 
-        public bool ValidateHash(string value, string hash) => Hash(value).Split('æ')[0] == hash;
+        public bool ValidateHash(string value, string hash) => Hash(value) == hash;
 
     }
 }
