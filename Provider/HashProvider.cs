@@ -20,6 +20,8 @@ namespace HashProperty.Provider
             if (string.IsNullOrEmpty(value))
                 return string.Empty;
 
+            if (value.IndexOf("æ") > -1) return value;
+
             var valueBytes = KeyDerivation.Pbkdf2(
                               password: value,
                               salt: Encoding.UTF8.GetBytes(SaltKey),
