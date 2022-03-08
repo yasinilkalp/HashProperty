@@ -7,7 +7,7 @@
     <PackageDescription>This package hash the property marked.</PackageDescription>
     <RepositoryUrl>https://github.com/yasinilkalp/HashProperty</RepositoryUrl>
     <PackageIcon>icon.png</PackageIcon>
-    <Version>1.0.1.0</Version>
+    <Version>1.0.2.0</Version>
   </PropertyGroup>
   
   <ItemGroup>
