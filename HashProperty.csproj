@@ -1,19 +1,20 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net5.0</TargetFramework>
-    <Authors>Yasin ilkalp Arabacı</Authors>
-    <Company>KodEkibi</Company>
-    <PackageDescription>This package hash the property marked.</PackageDescription>
-    <RepositoryUrl>https://github.com/yasinilkalp/HashProperty</RepositoryUrl>
-    <PackageIcon>icon.png</PackageIcon>
-    <Version>1.0.2.0</Version>
-  </PropertyGroup>
-  
-  <ItemGroup>
-    <None Include="icon.png" Pack="true" PackagePath="" />
-    <PackageReference Include="Microsoft.AspNetCore.Cryptography.KeyDerivation" Version="6.0.2" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.5" />
-  </ItemGroup>
-  
+	<PropertyGroup>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<TargetFramework>net6.0</TargetFramework>
+		<Authors>Yasin ilkalp Arabacı</Authors>
+		<Company>KodEkibi</Company>
+		<PackageDescription>This package hash the property marked.</PackageDescription>
+		<RepositoryUrl>https://github.com/yasinilkalp/HashProperty</RepositoryUrl>
+		<PackageIcon>icon.png</PackageIcon>
+		<Version>1.0.3</Version>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="icon.png" Pack="true" PackagePath="" />
+		<PackageReference Include="Microsoft.AspNetCore.Cryptography.KeyDerivation" Version="6.0.8" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.8" />
+	</ItemGroup>
+
 </Project>
